@@ -1,0 +1,360 @@
+
+
+@font-face {
+  font-family: "Austin";
+  src:  url("../../../fonts/typetoday/AustinCy-Roman-Web.woff2?domain=americanzenquotes.com&md5=IkD-aXeIGyn9DBdKPtZl1Q") format("woff2"),
+        url("../../../fonts/typetoday/AustinCy-Roman-Web.woff?domain=americanzenquotes.com&md5=3Jd55rAgElu5pO1OEerYDw") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("../../../fonts/typetoday/AustinCy-Italic-Web.woff2?domain=americanzenquotes.com&md5=eehWUdv_Wsk-dRfFxlnjnw") format("woff2"),
+        url("../../../fonts/typetoday/AustinCy-Italic-Web.woff?domain=americanzenquotes.com&md5=i6Md4XQA2hubP6lHsZm8Vw") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("../../../fonts/typetoday/AustinCy-Semibold-Web.woff2?domain=americanzenquotes.com&md5=xtnmo0Pexenyc639LzwYsA") format("woff2"),
+        url("../../../fonts/typetoday/AustinCy-Semibold-Web.woff?domain=americanzenquotes.com&md5=j7Fdxl0csI5NP_sFQ1x9iw") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("../../../fonts/typetoday/AustinCy-Bold-Web.woff2?domain=americanzenquotes.com&md5=TQXip1svSpsc313IvOfLHA") format("woff2"),
+        url("../../../fonts/typetoday/AustinCy-Bold-Web.woff?domain=americanzenquotes.com&md5=djsea20JFFZ6285w8cncYA") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("../../../fonts/typetoday/AustinCy-Ultra-Web.woff2?domain=americanzenquotes.com&md5=JzwbE95ocaOycjpUMAu-VA") format("woff2"),
+        url("../../../fonts/typetoday/AustinCy-Ultra-Web.woff?domain=americanzenquotes.com&md5=U8OUg2v_7kDwGDzXGhOUyg") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("../../../fonts/typetoday/AustinCy-UltraItalic-Web.woff2?domain=americanzenquotes.com&md5=5Hv8sKxwJVmznHKw3PVL0w") format("woff2"),
+        url("../../../fonts/typetoday/AustinCy-UltraItalic-Web.woff?domain=americanzenquotes.com&md5=PaYdPrO0QnKA8aeZxB6-Vg") format("woff");
+  font-style: italic;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Dala Floda";
+  src:  url("../../../fonts/typetoday/DalaFlodaCy-Fat-Web.woff2?domain=americanzenquotes.com&md5=tvQgwS4-_UAGzdYDjDsO_A") format("woff2"),
+        url("../../../fonts/typetoday/DalaFlodaCy-Fat-Web.woff?domain=americanzenquotes.com&md5=GyTyxl6KFOI-kN6sibw0Nw") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}
+
+
+@font-face {
+  font-family: "Druk Condensed";
+  src:  url("../../../fonts/typetoday/DrukCondCy-Super-Web.woff2?domain=americanzenquotes.com&md5=SGOedG_ILGG-0zrbY8N9lw") format("woff2"),
+        url("../../../fonts/typetoday/DrukCondCy-Super-Web.woff?domain=americanzenquotes.com&md5=wlzIXuP4vD4qKBAG6_NAwg") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Druk Condensed";
+  src:  url("../../../fonts/typetoday/DrukXCondCy-Super-Web.woff2?domain=americanzenquotes.com&md5=Qy2j5HxnvF83bZpcHERc4g") format("woff2"),
+        url("../../../fonts/typetoday/DrukXCondCy-Super-Web.woff?domain=americanzenquotes.com&md5=82QvJf1seeqdagEjvAWovw") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Druk Wide";
+  src:  url("../../../fonts/typetoday/DrukWideCy-Bold-Web.woff2?domain=americanzenquotes.com&md5=be6InWZg8wUCDxOiaeMk8Q") format("woff2"),
+        url("../../../fonts/typetoday/DrukWideCy-Bold-Web.woff?domain=americanzenquotes.com&md5=7RftjUBaRjf8o1VwsT6kPQ") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Druk Wide";
+  src:  url("../../../fonts/typetoday/DrukWideCy-Super-Web.woff2?domain=americanzenquotes.com&md5=IAXwErdCjdTMp46eB1ZJ0g") format("woff2"),
+        url("../../../fonts/typetoday/DrukWideCy-Super-Web.woff?domain=americanzenquotes.com&md5=TRmr02T3WZjdPC_f5ivwLg") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("../../../fonts/typetoday/GiorgioSansLC-Thin-Web.woff2?domain=americanzenquotes.com&md5=U9L3obvn83DLeXcf9oeY5g") format("woff2"),
+        url("../../../fonts/typetoday/GiorgioSansLC-Thin-Web.woff?domain=americanzenquotes.com&md5=WF0JjWKJOOvaF6eJpEp_sA") format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("../../../fonts/typetoday/GiorgioSansLC-Regular-Web.woff2?domain=americanzenquotes.com&md5=hH-zvE2yj0SFL5rs9Lqgug") format("woff2"),
+        url("../../../fonts/typetoday/GiorgioSansLC-Regular-Web.woff?domain=americanzenquotes.com&md5=WTGaQPFV2qbrY5l05hs4DA") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("../../../fonts/typetoday/GiorgioSansLC-RegularItalic-Web.woff2?domain=americanzenquotes.com&md5=Sv9jw03B1qjsMLrQwDB7wA") format("woff2"),
+        url("../../../fonts/typetoday/GiorgioSansLC-RegularItalic-Web.woff?domain=americanzenquotes.com&md5=FQ-2KN-1d1GzxmK7pAjpMw") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("../../../fonts/typetoday/GiorgioSansLC-Medium-Web.woff2?domain=americanzenquotes.com&md5=ogSUd32aOxbC86gbnSehGw") format("woff2"),
+        url("../../../fonts/typetoday/GiorgioSansLC-Medium-Web.woff?domain=americanzenquotes.com&md5=gm2DxJVlKBE5u1bwV_Uvig") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("../../../fonts/typetoday/GiorgioSansLC-Bold-Web.woff2?domain=americanzenquotes.com&md5=pcqlsxX1i2y8x7AJ1M5I3A") format("woff2"),
+        url("../../../fonts/typetoday/GiorgioSansLC-Bold-Web.woff?domain=americanzenquotes.com&md5=-lXFE4zL3jO0ZsIF-5rbgQ") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("../../../fonts/typetoday/GiorgioSansLC-BoldItalic-Web.woff2?domain=americanzenquotes.com&md5=-fwqiV6vaZeqsGCHTJphuw") format("woff2"),
+        url("../../../fonts/typetoday/GiorgioSansLC-BoldItalic-Web.woff?domain=americanzenquotes.com&md5=NYcfipWzpxM2gBYLPxubgw") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("../../../fonts/typetoday/GiorgioSansLC-Heavy-Web.woff2?domain=americanzenquotes.com&md5=8cLmK66VijXuN91KPKYlyQ") format("woff2"),
+        url("../../../fonts/typetoday/GiorgioSansLC-Heavy-Web.woff?domain=americanzenquotes.com&md5=Tu3E4kB5UCwg9SR6Gf9CJA") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("../../../fonts/typetoday/GiorgioSansLC-Black-Web.woff2?domain=americanzenquotes.com&md5=x3VPLuZPWL8N-rjk77w6lg") format("woff2"),
+        url("../../../fonts/typetoday/GiorgioSansLC-Black-Web.woff?domain=americanzenquotes.com&md5=r1GW3Euw5dU8qXOtZFZCoQ") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Graphik";
+  src:  url("../../../fonts/typetoday/GraphikLC-Thin-Web.woff2?domain=americanzenquotes.com&md5=yXAau_B3Pl_PrF9geVgzvw") format("woff2"),
+        url("../../../fonts/typetoday/GraphikLC-Thin-Web.woff?domain=americanzenquotes.com&md5=b6UcbcMhccickTo2PhCjcw") format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("../../../fonts/typetoday/GraphikLC-Light-Web.woff2?domain=americanzenquotes.com&md5=Z8o4NUOs1LH6h5VW0ExhLA") format("woff2"),
+        url("../../../fonts/typetoday/GraphikLC-Light-Web.woff?domain=americanzenquotes.com&md5=AgrGpBoysOc2FgiMs5qVTw") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("../../../fonts/typetoday/GraphikLC-Regular-Web.woff2?domain=americanzenquotes.com&md5=V-U8SVHXk0VFjpdD0YBMGQ") format("woff2"),
+        url("../../../fonts/typetoday/GraphikLC-Regular-Web.woff?domain=americanzenquotes.com&md5=2mpZX3WEmSZCn9FmUaNRdw") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("../../../fonts/typetoday/GraphikLC-RegularItalic-Web.woff2?domain=americanzenquotes.com&md5=moyz6N22-EIakwr11PkT8w") format("woff2"),
+        url("../../../fonts/typetoday/GraphikLC-RegularItalic-Web.woff?domain=americanzenquotes.com&md5=Pd7kt8jSdAlo-0iK4pCCcg") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("../../../fonts/typetoday/GraphikLC-Medium-Web.woff2?domain=americanzenquotes.com&md5=CL3OKqw9zmiIyd33lIf13g") format("woff2"),
+        url("../../../fonts/typetoday/GraphikLC-Medium-Web.woff?domain=americanzenquotes.com&md5=7P2jmnFLdFNmRFCsMxiyxA") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("../../../fonts/typetoday/GraphikLC-Bold-Web.woff2?domain=americanzenquotes.com&md5=K4dnGgSXHby-EF2H7sLDAw") format("woff2"),
+        url("../../../fonts/typetoday/GraphikLC-Bold-Web.woff?domain=americanzenquotes.com&md5=xHxkRV1C9YknZ8ePBxF-8g") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("../../../fonts/typetoday/GraphikLC-BoldItalic-Web.woff2?domain=americanzenquotes.com&md5=dtw350SAsaykVBKWAlJb-A") format("woff2"),
+        url("../../../fonts/typetoday/GraphikLC-BoldItalic-Web.woff?domain=americanzenquotes.com&md5=YMVQ0A8XxpSmhB6NehpGCg") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("../../../fonts/typetoday/GraphikLC-Black-Web.woff2?domain=americanzenquotes.com&md5=WVcQLA2NyYTFJ6_UJYTAuA") format("woff2"),
+        url("../../../fonts/typetoday/GraphikLC-Black-Web.woff?domain=americanzenquotes.com&md5=Yk96x-lxHPG5mr58KoG9Ig") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("../../../fonts/typetoday/GraphikLC-Super-Web.woff2?domain=americanzenquotes.com&md5=IEeVjZfFipRE6NjGePusBw") format("woff2"),
+        url("../../../fonts/typetoday/GraphikLC-Super-Web.woff?domain=americanzenquotes.com&md5=P9-u8ahSB4u56EPXh3grew") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Kazimir";
+  src:  url("../../../fonts/typetoday/Kazimir-Web-Regular.woff2?domain=americanzenquotes.com&md5=ETkKhXk8lGNxJRdLwQniAw") format("woff2"),
+        url("../../../fonts/typetoday/Kazimir-Web-Regular.woff?domain=americanzenquotes.com&md5=yDtzqfsbY0-0mUXyDEpCbw") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Kazimir";
+  src:  url("../../../fonts/typetoday/Kazimir-Web-Medium.woff2?domain=americanzenquotes.com&md5=dtv2NldRNhpMEQFxdtrnQA") format("woff2"),
+        url("../../../fonts/typetoday/Kazimir-Web-Medium.woff?domain=americanzenquotes.com&md5=vtggZYQuDjUJd6wXDuEHGg") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Kazimir";
+  src:  url("../../../fonts/typetoday/Kazimir-Web-Bold.woff2?domain=americanzenquotes.com&md5=jDN5szibVyyGwU5gH4-Y8Q") format("woff2"),
+        url("../../../fonts/typetoday/Kazimir-Web-Bold.woff?domain=americanzenquotes.com&md5=8ueI2WHfwMClcfPA0R9X3A") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Kazimir";
+  src:  url("../../../fonts/typetoday/Kazimir-Web-Black.woff2?domain=americanzenquotes.com&md5=lN8x-r0HGlaFtro0fzhkdA") format("woff2"),
+        url("../../../fonts/typetoday/Kazimir-Web-Black.woff?domain=americanzenquotes.com&md5=VPBwA210iBvRD6JGTp1ObQ") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Kazimir Text";
+  src:  url("../../../fonts/typetoday/KazimirText-Hairline_web.woff2?domain=americanzenquotes.com&md5=_EA57qKs1c94Id0YyZpF_A") format("woff2"),
+        url("../../../fonts/typetoday/KazimirText-Hairline_web.woff?domain=americanzenquotes.com&md5=MPmt801N1TCJPkCJJ7d1Mw") format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Kazimir Text";
+  src:  url("../../../fonts/typetoday/KazimirText-Book_web.woff2?domain=americanzenquotes.com&md5=RPP-dkecInECJO3WzkFFOw") format("woff2"),
+        url("../../../fonts/typetoday/KazimirText-Book_web.woff?domain=americanzenquotes.com&md5=TbjQCYQUO08cD5VfD5ty0g") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Kazimir Text";
+  src:  url("../../../fonts/typetoday/KazimirText-Regular_web.woff2?domain=americanzenquotes.com&md5=lwqmULFEHB-kHmvvjJXSyw") format("woff2"),
+        url("../../../fonts/typetoday/KazimirText-Regular_web.woff?domain=americanzenquotes.com&md5=6Lsf5CAxI5gDhXjiWuZ3zQ") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Kazimir Text";
+  src:  url("../../../fonts/typetoday/KazimirText-Bold_web.woff2?domain=americanzenquotes.com&md5=BkuUBYfe7RF1mDHBuS8Hgw") format("woff2"),
+        url("../../../fonts/typetoday/KazimirText-Bold_web.woff?domain=americanzenquotes.com&md5=E4Vpvvuzl_m_DdJwGu8V1w") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "Karloff Negative";
+  src:  url("../../../fonts/typetoday/KarloffNegativePro-Web-Regular.woff2?domain=americanzenquotes.com&md5=DAhSRTWQHHDznmgeVXin-Q") format("woff2"),
+        url("../../../fonts/typetoday/KarloffNegativePro-Web-Regular.woff?domain=americanzenquotes.com&md5=F9A0-pLXYaOzuEX8sdeAWA") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Karloff Negative";
+  src:  url("../../../fonts/typetoday/KarloffNegativePro-Web-Bold.woff2?domain=americanzenquotes.com&md5=QC5xCtF1PC5w5DdHPtOUzg") format("woff2"),
+        url("../../../fonts/typetoday/KarloffNegativePro-Web-Bold.woff?domain=americanzenquotes.com&md5=0wpk1GQhfFoN8EsJmvUGCw") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "Marlene";
+  src:  url("../../../fonts/typetoday/MarleneCy-Web-Light.woff2?domain=americanzenquotes.com&md5=CZML6AlCa-X4xjOomxmgkA") format("woff2"),
+        url("../../../fonts/typetoday/MarleneCy-Web-Light.woff?domain=americanzenquotes.com&md5=AYKgufrHmRd_7maujkBV0A") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Marlene";
+  src:  url("../../../fonts/typetoday/MarleneCy-Web-Bold.woff2?domain=americanzenquotes.com&md5=fRWThIRpiiBvGSywjxnkRg") format("woff2"),
+        url("../../../fonts/typetoday/MarleneCy-Web-Bold.woff?domain=americanzenquotes.com&md5=dzBW9K1zZO6ZVydKh0rZrw") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "NWT Bodoni";
+  src:  url("../../../fonts/typetoday/NWT_Bodoni-Regular-Web.woff?domain=americanzenquotes.com&md5=RUKge4vnEOEOxkSTCUOihw") format("woff"),
+        url("../../../fonts/typetoday/NWT_Bodoni-Regular-Web.woff?domain=americanzenquotes.com&md5=RUKge4vnEOEOxkSTCUOihw") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "NWT Bodoni";
+  src:  url("../../../fonts/typetoday/NWT_Bodoni-Italic-Web.woff2?domain=americanzenquotes.com&md5=WbDnlC1Xti2h6YdLX91ZGQ") format("woff2"),
+        url("../../../fonts/typetoday/NWT_Bodoni-Italic-Web.woff?domain=americanzenquotes.com&md5=BGcBNjoxa3Y94oVV-ClOOg") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "NWT Bodoni";
+  src:  url("../../../fonts/typetoday/NWT_Bodoni-Bold-Web.woff2?domain=americanzenquotes.com&md5=fPMj0EwxPboChpRvUZ42Mw") format("woff2"),
+        url("../../../fonts/typetoday/NWT_Bodoni-Bold-Web.woff?domain=americanzenquotes.com&md5=9pPd8ad4ff0ZwcxCgmny-A") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "Stratos";
+  src:  url("../../../fonts/typetoday/StratosLC-Web-Light.woff2?domain=americanzenquotes.com&md5=4BRhPGfzdyFBj9HAlunLOA") format("woff2"),
+        url("../../../fonts/typetoday/StratosLC-Web-Light.woff?domain=americanzenquotes.com&md5=VAK_gTuirlVbSXU29wSDTQ") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Stratos";
+  src:  url("../../../fonts/typetoday/StratosLC-Web-Regular.woff2?domain=americanzenquotes.com&md5=FcCde7JJbZpBeeiAhggyuw") format("woff2"),
+        url("../../../fonts/typetoday/StratosLC-Web-Regular.woff?domain=americanzenquotes.com&md5=ebnaUq55f9HsE3ZGEFaS9w") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Stratos";
+  src:  url("../../../fonts/typetoday/StratosLC-Web-Italic.woff2?domain=americanzenquotes.com&md5=cgQziUAXKAiXq_3ymuYsOg") format("woff2"),
+        url("../../../fonts/typetoday/StratosLC-Web-Italic.woff?domain=americanzenquotes.com&md5=b27CgNRpGbPVOnsmVvNRCA") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Stratos";
+  src:  url("../../../fonts/typetoday/StratosLC-Web-Medium.woff2?domain=americanzenquotes.com&md5=vc6Jb2kAjh8iOOMihdXUFg") format("woff2"),
+        url("../../../fonts/typetoday/StratosLC-Web-Medium.woff?domain=americanzenquotes.com&md5=DIG6SUj6UN63XsVKgS_hWQ") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Stratos";
+  src:  url("../../../fonts/typetoday/StratosLC-Web-Bold.woff2?domain=americanzenquotes.com&md5=squcvurwaSPep5eyGvhqaw") format("woff2"),
+        url("../../../fonts/typetoday/StratosLC-Web-Bold.woff?domain=americanzenquotes.com&md5=tUY3jvI1-PkIkx3xSyYd0Q") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
